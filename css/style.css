@@ -1,0 +1,228 @@
+/*es tilos de la pagina*/
+.menu{
+	background-color: #1E1F29;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1% !important;
+}
+.fondo{
+	background-color: #2D4B92 ;
+	height: 500px;
+}
+.letra{
+	color:#E5E5E9 !important;
+}
+.boton{
+	width: 125px;
+	height: 50px;
+	border:1px solid white;
+	color: white;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.boton:hover{
+	background-color:rgba(243, 245, 249,0.4) !important;
+}
+.separacion{
+	padding-left: 70%;
+	padding-top: 2%;
+}
+.titulo{
+	color:white;
+	font-size: 40px;
+	font-family: 'Quicksand', sans-serif;
+}
+.sub{
+	color:white;
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+.lyric{
+	color:white;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid white;
+  float: left;
+  width: 45%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.derecha{
+	padding-left: 26%;
+}
+.seleccion{
+	padding: 10px;
+  	font-size: 17px;
+ 	border: 1px solid white;
+  	width: 147px;
+  	background: #f1f1f1;
+  	color: gray;
+}
+.imgredonda {
+    border-radius:50%;
+}
+.lados{
+	padding-top: 3%;
+	text-align: center;
+
+}
+.bienvenida{
+	color: #4E535E;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	padding-left: 6% !important;
+}
+.linea {
+    border-top: 2px solid #2D4B92;
+	width: 88%;
+	padding-bottom: 4%;
+}
+.puesto{
+	width: 95px;
+	height: 30px;
+	color: white;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: #2D4B92;
+}
+.puesto:hover{
+	background-color:rgba(35, 73, 159,0.5) !important;
+}
+.letrachida{
+	font-family: 'Raleway', sans-serif;
+}
+.fondo2{
+	background-color: #1E1F29;
+	color:#E5E5E9 !important;
+	height: 400px;
+}
+.letrachida2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+.derechos{
+	font-size: 10px;
+	color: #707176;
+}
+
+.slideresponsivo{
+	display: none;
+}
+.lista{
+	list-style: none;
+}
+.centrado{
+	padding: 0 !important;
+}
+a{
+	text-decoration: none !important;
+}
+/*convertir responsivo*/
+@media(max-width: 769px){
+	.slidenormal{
+		display: none;
+	}
+
+	.slideresponsivo{
+		display: block;
+		text-align: center;
+		padding-top: 3%;
+	}
+	.empleosres{
+		display: none;
+		text-align: center;
+		border:1px #2D4B92 solid;
+	}
+
+	.bordes{
+		border-bottom:1px #2D4B92 solid;
+		padding-top: 2%;
+	}
+	.botonre{
+		align-items: center;
+		text-align: center;
+		margin-left: 40% !important;
+	}
+	.fondo2{
+		height: 520px;
+	}
+	.boton{
+	width: 90px;
+	height: 50px;
+	border:1px solid white;
+	color: white;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	}
+	.separacion{
+	padding-left: 5%;
+	padding-top: 2%;
+	}
+	.derecha{
+	padding-left: 5%;
+	}
+	.seleccion{
+		display: none;
+	}
+	.nuevoexample{
+		padding-left: 25% !important;
+	}
+
+}
+@media(max-width: 575px){
+	.perfil{
+		padding-left: 25% !important;
+		margin-top: -50px !important;
+	}
+
+	.fondo2{
+		height: 600px;
+	}
+	.titulores{
+		font-size: 30px;
+	}
+
+	.titulo{
+		font-size: 38px;
+
+	}
+	.sub{
+		font-size: 25px;
+	}
+}
